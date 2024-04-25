@@ -33,11 +33,5 @@ public partial class NewPage1 : ContentPage
     }
 
 
-
-
-    private async Task VoltarTela(object sender, EventArgs e)
-    {
-        MainPage mainPage = new MainPage();
-        await Navigation.PushAsync(mainPage);
-    }
 }
+

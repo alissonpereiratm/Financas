@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinancasFacil.NewPage1"
-             Title="FINANCAS">
+             Title="FINANÇAS">
     <VerticalStackLayout>
 
         <Grid>
             <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -28,14 +30,13 @@
             <Label Grid.Row="3" Grid.Column="0" Text="Preço de Mercado:" />
             <Label Grid.Row="3" Grid.Column="1" x:Name="PrecoMercado" />
 
+       
+
         </Grid>
 
-        <Button
-         x:Name="Voltar"
-         Text="Ok" 
-         SemanticProperties.Hint="Voltar"
-         Clicked="VoltarTela"
-         HorizontalOptions="Fill" />
+
+     
+
 
     </VerticalStackLayout>
 </ContentPage>
